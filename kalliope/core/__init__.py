@@ -10,3 +10,4 @@ from kalliope.core.LIFOBuffer import LIFOBuffer
 from kalliope.core.NeuronParameterLoader import NeuronParameterLoader
 from kalliope.core.NeuronModule import NeuronModule
 from kalliope.core.PlayerModule import PlayerModule
+from kalliope.core.HookManager import HookManager
