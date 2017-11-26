@@ -22,7 +22,7 @@ class Event(Thread):
         super(Event, self).__init__()
         Utils.print_info('Starting event manager')
         self.scheduler = BackgroundScheduler()
-        self.brain = BrainLoader().get_brain()
+        self.brain = BrainLoader().brain
         self.synapses = self.brain.synapses
         self.load_events()
 

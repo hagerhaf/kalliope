@@ -23,7 +23,7 @@ class Mqtt_subscriber(Thread):
 
         self.brain = brain
         if self.brain is None:
-            self.brain = BrainLoader().get_brain()
+            self.brain = BrainLoader().brain
 
     def run(self):
         logger.debug("[Mqtt_subscriber] Starting Mqtt_subscriber")
